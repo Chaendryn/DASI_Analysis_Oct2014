@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1413659615446.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A3898A9D",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "finFinal",
+        "contentUrl" : "content?title=finFinal&file=f4d2d337f17741e7ab01b08e886e11a6.htm",
+        "displayedObservations" : 840,
+        "displayedVariables" : 3,
+        "totalObservations" : 840,
+        "variables" : 2
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
