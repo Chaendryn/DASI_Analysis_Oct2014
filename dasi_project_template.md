@@ -80,11 +80,9 @@ From the original 1458 cases available for analysis, there is only a set of 840 
 
 
 ```r
-finPlot <- finFinal; levels(finPlot$satfin) <- c("Sat (Fin)", "MoreLess (Fin)", "NotSat (Fin)"); levels(finPlot$satjob) <- c("VSat", "MSat", "LDis", "VDis")
-
 par(mfrow=c(1,2))
-barplot(table(finPlot$satfin, finPlot$satjob), legend=TRUE, beside = TRUE, col = heat.colors(3), main = "Financial Situation by Job Satisfaction", xlab = "Job Satisfaction", ylab = "Financial Satisfaction (# of observations)", cex.axis = 0.66)
-mosaicplot(table(finPlot$satfin, finPlot$satjob), color = topo.colors(4), main = "Financial Satisfaction vs Job Satisfaction", sub = "Job Satisfaction", ylab = "Satisfaction - Financial Situation")
+barplot(table(finFinal$satfin, finFinal$satjob), legend=TRUE, beside = TRUE, col = heat.colors(3), main = "Financial Situation by Job Satisfaction", xlab = "Job Satisfaction", ylab = "Financial Satisfaction (# of observations)", cex.axis = 0.66, las = 1)
+mosaicplot(table(finFinal$satfin, finFinal$satjob), color = topo.colors(4), main = "Financial Satisfaction vs Job Satisfaction", sub = "Job Satisfaction", ylab = "Satisfaction - Financial Situation", las = 1)
 ```
 
 ![plot of chunk Plots](./dasi_project_template_files/figure-html/Plots.png) 
